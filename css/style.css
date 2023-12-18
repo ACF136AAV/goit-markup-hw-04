@@ -264,6 +264,7 @@ a{
 }
 .icons-expl{
     margin: 24px 100px;
+    position: sticky;
 }
 .exp-text{
     font-size: 16px;
@@ -271,6 +272,35 @@ a{
     letter-spacing: 0.02em;
     color: #434455;
     text-align: left;
+}
+.icons-team{    
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    fill: #f4f4fd;
+    margin: 11px;
+}
+.icons-inst-cont{
+    width: 40px;
+    height: 40px;
+    border-radius: 90% 90% 90%;
+    border: 1px solid #4D5AE5;
+    background-color: #4d5AE5;
+    margin-top: 8px;
+    margin-left: 18px;
+    gap: 24px;
+}
+.icons-team-cont{
+    width: 40px;
+        height: 40px;
+        border-radius: 90% 90% 90%;
+        border: 1px solid #4D5AE5;
+        background-color: #4d5AE5;
+        margin-top: 8px;
+        margin-left: 23px;
+}
+.cont-icons{
+display: flex;
 }
 .visually-hidden {
     position: absolute;

@@ -445,6 +445,7 @@ a {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    transform: translateY(0%);
 }
 
 .portfolio-point {

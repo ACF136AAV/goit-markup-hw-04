@@ -439,15 +439,13 @@ a {
     padding-top: 120px;
     padding-bottom: 120px;
 }
-
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
-    row-gap: 48px;
-
+    row-gap: 48px
 }
-.portfolio-list:hover{
+.portfolio-flip:hover{
     transform: translateY(0%);
 }
 .portfolio-point {
@@ -462,9 +460,6 @@ a {
 .portfolio-flip{
     position: relative;
     overflow: hidden;
-}
-.portfolio-flip:hover{
-    transform: translateY(0%);
 }
 .flip-text{
     position: absolute;
@@ -485,7 +480,6 @@ a {
     border: 1px solid #e7e9fc;
     border-top: none;
 }
-
 .apps-head {
     font-weight: 500;
     font-size: 20px;
@@ -502,6 +496,9 @@ a {
     letter-spacing: 0.02em;
     color: #434455;
     text-align: left;
+}
+.text-apps:hover{
+    transform: translateY(0%);
 }
 .logo-cont{
     margin-right: 120px;

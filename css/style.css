@@ -325,8 +325,15 @@ a {
 }
 
 .icons-expl {
-    margin: 24px 100px;
-    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 264px;
+    height: 112px;
+    border: 1px solid #8E8F99;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
 }
 
 .exp-text {
